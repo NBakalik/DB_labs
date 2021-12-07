@@ -9,5 +9,5 @@ BEGIN
 END //
 DELIMITER ;
 
-SELECT find_pharmacy_name_house(1)
-FROM pharmacy
+SELECT *, find_pharmacy_name_house(pharmacy_id)
+FROM employee;
